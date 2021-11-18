@@ -1,0 +1,40 @@
+.footer {
+    height: 150px;
+    padding-top: 30px;
+    &__child {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__items {
+        height: 40px;
+
+        display: flex;
+        align-items: flex-end;
+    }
+    &__item {
+        padding-right: 40px;
+        display: inline;
+        font-weight: 400;
+        font-size: 12px;
+        color: #000000;
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+}
+
+.logo {
+    position: absolute;
+    left: 36.5%;
+    top: 0;
+}
+
+.label {
+    margin-top: 30px;
+    height: 30px;
+}

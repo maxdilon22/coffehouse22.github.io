@@ -1,0 +1,75 @@
+
+.img__label {
+    margin: 0 auto;
+    position: relative;
+    width: 30px;  
+    &_white {
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 60px;
+            height: 1px;
+            background: #fff;
+            left: -85px;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+        }
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 60px;
+            height: 1px;
+            background: #fff;
+            right: -85px;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+        }
+    }
+    &_black {
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 60px;
+            height: 1px;
+            background: #000;
+            left: -85px;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+        }
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 60px;
+            height: 1px;
+            background: #000;
+            right: -85px;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+        }
+    }
+}
+
+.logo__wrapper {
+    height: 30px;
+    margin: 20px auto 0;
+}

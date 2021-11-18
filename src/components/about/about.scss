@@ -1,0 +1,17 @@
+.about {
+    padding-top: 80px;
+    padding-bottom: 101px;
+    &__title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    &__descr {
+        max-width: 589px;
+        height: 223px;
+        margin: 0 auto;
+        margin-top: 40.7px;
+
+    }
+}

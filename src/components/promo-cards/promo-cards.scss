@@ -1,0 +1,68 @@
+.promo-cards {
+    padding-top: 80px;
+    padding-bottom: 110px;
+    background-image: url('../../common/img/mask.jpg');
+    &__title {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        color: #000000;
+    }
+    &__wrapper {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__card {
+        margin-right: 71px;
+        max-width: 220px;
+        height: 240px;
+        border-radius:10px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        -ms-border-radius:10px;
+        -o-border-radius:10px;
+        background: rgba(255, 255, 255, 0.65);
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 0 20px rgba(0,0,0, .3);
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+        &-title{
+            font-family: Merienda;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+            margin-bottom: 10px;
+
+        }
+        &-price {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: right;
+            color: #000000;
+            padding-right: 20px;
+            padding-bottom: 22px;
+
+        }
+        & > img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+            margin-top: 22px;
+            margin-bottom: 14px;
+
+        }
+    }
+}
